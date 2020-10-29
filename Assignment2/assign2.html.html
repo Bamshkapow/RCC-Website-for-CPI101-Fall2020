@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Welcome to play Paper Scissors Rock game!</title>
+		<link rel="stylesheet" href="./css/game.css">
+		<script src="./js/game.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body onload="set_welcome()">
+		<div class="banner"></div>
+		<div id="welcome">
+			Welcome to play Paper Scissors Rock game!
+		</div>
+		<div class="content">
+			<table border="1" cellspacing="0">
+				<tr>
+					<td>Your selection:</td>
+					<td></td>
+					<td>Computer</td>
+				</tr>
+				<tr>
+					<td>
+						<p><input type="radio" name="your_select" id="paper" onclick="change_select('Paper')"><label for="paper">Paper</label></p>
+						<p><input type="radio" name="your_select" id="scissors" onclick="change_select('Scissors')"><label for="scissors">Scissors</label></p>
+						<p><input type="radio" name="your_select" id="rock" onclick="change_select('Rock')"><label for="rock">Rock</label></p>
+					</td>
+					<td>
+						<button onclick="play()">Go!</button>
+					</td>
+					<td>
+						<span id="computer_gen1"></span>
+					</td>
+				</tr>
+				<tr>
+					<td>You selected:</td>
+					<td colspan="2">
+						<span id="your_select"></span>
+					</td>
+				</tr>
+				<tr>
+					<td>Computer ramdonly generated:</td>
+					<td colspan="2">
+						<span id="computer_gen2"></span>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="footer">
+			<p>History:You have played total: <span id="total_time">0</span> time(s)!</p>
+			<p>
+				Paper: <span id="paper_time"></span> time(s)
+				& Scissors: <span id="scissors_time"></span> time(s) 
+				& Rock: <span id="rock_time"></span> time(s).
+			</p>
+		</div>
+	</body>
+</html>

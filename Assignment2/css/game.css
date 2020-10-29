@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.banner {
+	background-image: url(../images/banner-bg.gif);
+	background-size: contain;
+	width: 1000px;
+	height: 186px;
+}
+
+#welcome {
+	background-color: #ed4f34;
+	color: #FFF;
+	font-size: 30px;
+	padding: 10px 0 10px 60px;
+}
+
+.content {
+	margin-top: 50px;
+}
+
+table {
+	width: 1000px;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+td {
+	padding: 20px;
+}
+
+p {
+	line-height: 30px;
+}
+
+label {
+	padding-left: 10px;
+}
+
+button {
+	width: 100%;
+	padding: 15px;
+	font-size: 20px;
+	font-weight: 700;
+}
