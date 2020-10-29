@@ -1,0 +1,167 @@
+html{
+	background-color: black; padding-left: 220px; padding-right: 220px; 
+}
+body{
+	background-color: white;
+
+	}
+#pageContent {text-align: Center;}
+#mission{
+	font-size: 22px;
+	font-style: italic;
+	font-style: bold;
+}
+#about{
+	font-size: 22px;
+	font-style: oblique;
+	font-family: serif; 
+	color: black; 
+	margin-left: 250px; 
+	margin-right: 250px; 
+}
+#hours{
+	font-size: 18pt;
+	border: true;
+	color: black;
+	background-color: tan;
+	margin-left: 325px;
+	margin-right: 325px;
+}
+
+#link a{	
+	border: true;
+	color: white;
+	font-size: 32px;
+	padding: 5px;
+	border-top: 4px solid black;
+	border-bottom:4px solid black;
+	border-left: 4px solid black;
+	border-right:4px solid black;
+	background-color: red;	
+}
+Header{
+	font-size:45px;
+	text-align: Center;
+
+}
+h1{
+	text-align: Center;
+	font-size: 58;
+}    
+h2{
+	font-size:35px;
+
+}
+footer{
+	text-align: Center;
+}   
+#Review label{
+	Margin-left: 100px;
+	
+}	
+#mission img{
+	border: true; 
+	border-style: groove;
+	border-width: thick;
+	border-color: #b0c4de;
+	padding: 2.5px;
+	float: left;
+}
+#about img{
+	border: true; 
+	border-style: groove;
+	border-width: thick;
+	border-color: #b0c4de;
+	padding: 2.5px;
+	float: left;
+}
+
+
+
+
+
+html{
+	background-color: black; padding-left: 250px; padding-right: 250px; 
+}
+body{
+	background-color: white;
+
+	}
+#pageContent {text-align: Center;}
+#mission{
+	font-size: 26px;
+	font-style: italic;
+	font-style: bold;
+	border: true;
+	color: black;
+	border-top: 4px double black;
+	border-bottom:4px double black;
+	border-left: 4px double black;
+	border-right:4px double black;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+#hours{
+	font-size: 18pt;
+	border: true;
+	color: black;
+	background-color: tan;
+	margin-left: 325px;
+	margin-right: 325px;
+}
+
+#link a{	
+	border: true;
+	color: white;
+	font-size: 32px;
+	padding: 5px;
+	border-top: 4px solid black;
+	border-bottom:4px solid black;
+	border-left: 4px solid black;
+	border-right:4px solid black;
+	background-color: red;	
+}
+footer{
+	text-align: Center;
+}  
+Header{
+	font-size:45px;
+	text-align: Center;
+
+}
+h1{
+	text-align: Center;
+	font-size: 48px;
+}    
+h2{
+	font-size:35px;
+	text-align: Center;
+}
+legend{
+		text-align: Center;
+		font-size: 38px;
+}
+#custInfo label{
+	font-size:25px;
+	font-style: bold;
+	padding-right: 5px;
+	Margin-left: 100px;
+	
+	
+}
+#buttons input{
+	margin-left:100px;
+	Padding-left: 20px;
+	Padding-right: 20px;
+	Padding-top: 5px;
+	Padding-bottom: 5px;
+	font-size:20px;
+	font-style: bold;
+}
+textarea{
+	margin-left: 100px;
+	Padding-left: 50px;
+	Padding-right: 150px;
+	Padding-top: 50px;
+	Padding-bottom: 50px;
+}
